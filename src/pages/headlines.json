@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Oil Palm Seedlings",
+    "imageUrl": "img/home/seed.png",
+    "link" : "docs/seedlings",
+    "description": "PPKS (Palm Oil Research Center) has produced superior international quality oil palm seeds in accordance with the 'Quality Management System' (ISO 9001: 2008)"
+    
+  },
+  {
+    "title": "Oil Palm Cultivation",
+    "imageUrl": "img/home/budidaya.png",
+    "link" : "docs/cultivation",
+    "description": "How to cultivate oil palm can increase crop yields. The main thing in the cultivation of oil palm by fulfilling the requirements for growing oil palm"
+  },
+  {
+    "title": "Palm Oil Processing",
+    "imageUrl": "img/home/pengolahan.png",
+    "link" : "docs/processing",
+    "description": "The most important part to be processed from oil palm is the fruit. The pulp of the fruit produces crude palm oil which is processed into raw material for cooking oil."
+  }
+]
