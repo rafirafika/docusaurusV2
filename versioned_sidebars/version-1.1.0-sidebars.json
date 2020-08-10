@@ -1,0 +1,50 @@
+{
+  "version-1.1.0/someSidebar": [
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Palm Oil",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-1.1.0/about/history"
+        },
+        {
+          "collapsed": true,
+          "type": "category",
+          "label": "Part of Palm Oil",
+          "items": [
+            {
+              "type": "doc",
+              "id": "version-1.1.0/about/component/part"
+            },
+            {
+              "type": "doc",
+              "id": "version-1.1.0/about/component/root"
+            },
+            {
+              "type": "doc",
+              "id": "version-1.1.0/about/component/rod"
+            },
+            {
+              "type": "doc",
+              "id": "version-1.1.0/about/component/leaf"
+            },
+            {
+              "type": "doc",
+              "id": "version-1.1.0/about/component/flower"
+            },
+            {
+              "type": "doc",
+              "id": "version-1.1.0/about/component/fruit"
+            }
+          ]
+        },
+        {
+          "type": "doc",
+          "id": "version-1.1.0/about/varietas"
+        }
+      ]
+    }
+  ]
+}

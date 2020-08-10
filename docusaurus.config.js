@@ -52,8 +52,14 @@ module.exports = {
           to: 'blog', 
           label: 'Blog', 
           position: 'left'
-        }, {
-          href: 'https://github.com/facebook/docusaurus',
+        }, 
+        {
+          type: 'docsVersionDropdown',
+          position: 'right',
+          nextVersionLabel: '1.1.1-next',
+        },
+        {
+          href: 'https://github.com/rafirafika/docusaurusV2',
           label: 'GitHub',
           position: 'right',
         },
@@ -101,7 +107,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/rafirafika/docusaurusV2',
             },
           ],
         },
