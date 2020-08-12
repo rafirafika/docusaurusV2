@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Layout from '@theme/Layout';
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import {
   TextBlocksGrid,
   TextBlock,
@@ -16,12 +17,20 @@ import {
 import trendData from './trendData.json';
 import TrendItem from './trendItem';
 
+function Image(props){
+  let {imageUrl} = props;
+  let url = useBaseUrl(imageUrl);
+  return (
+    <img src={url} className={styles.imgBannerTrend}></img>
+  )
+}
+
 class Trending extends Component {
   constructor() {
     super();
     this.state = {
       newsList : trendData,
-      searchNews : '',
+      searchNews : '',  
     };
     this.onChangeForm = this.onChangeForm.bind(this);
   }
@@ -74,7 +83,7 @@ class Trending extends Component {
                 />
               </div>
               <div className={styles.childHeroRight}>
-                <img src={"img/home/bahanBakarMinyak.png"} className={styles.imgBannerTrend} />
+                <Image imageUrl='img/home/bahanBakarMinyak.png'></Image>
               </div>
             </div>
           </Hero>

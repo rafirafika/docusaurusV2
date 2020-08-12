@@ -1,12 +1,12 @@
 module.exports = {
   title: 'Palm Oil',
   tagline: 'Anything you want to know about palm oil',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://rafirafika.github.io',
+  baseUrl: '/palm-oil/',
   onBrokenLinks: 'throw',
   favicon: 'img/palmIcon.svg',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'rafirafika', // Usually your GitHub org/user name.
+  projectName: 'rafirafika.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Palm Oil',

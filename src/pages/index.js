@@ -44,6 +44,7 @@ function Feature({imageUrl, title, description}) {
 }
 
 function Trending({imageUrl, title, description, link}){
+  let url = useBaseUrl(link);
   return (
     <Story
       image={imageUrl}
@@ -53,7 +54,7 @@ function Trending({imageUrl, title, description, link}){
         <Text>
           {description}
         </Text>
-        <LightCta href={link}>Show More</LightCta>
+        <LightCta href={url}>Show More</LightCta>
       </TextBlock>
     </Story>
   )
@@ -98,8 +99,8 @@ function Home() {
         <Banner
           className="uil-m-auto uil-maw-1200"
           button="Explore"
-          href="#"
-          image={`img/home/palmBanner.png`}
+          href="docs/about/history"
+          image={useBaseUrl('img/home/palmBanner.png')}
           subtitle={siteConfig.tagline}
           theme="mars"
           title={siteConfig.title}
